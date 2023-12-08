@@ -1,14 +1,32 @@
 import json
 from pathlib import Path
 from secrets import choice
-from typing import Optional, Union
+from typing import Optional, Union, List
 
 GREETINGS = [
     "Have a fantastic Monday!",
 ]
 
 
-def get_greeting() -> tuple[str, Optional[str], Optional[str], Optional[str]]:
+def get_greeting() -> (
+    tuple[
+        str,
+        Optional[str],
+        Optional[str],
+        Optional[List[str]],
+    ]
+):
+    """
+    Get a greetings and its recipients.
+
+    Can contain any desired side-effect!
+
+    :return: A tuple containing the following:
+        greeting,
+        subject,
+        sender,
+        recipients
+    """
     return choice(GREETINGS), None, None, None
 
 
