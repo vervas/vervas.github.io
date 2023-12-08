@@ -14,6 +14,7 @@ def get_greeting() -> (
         Optional[str],
         Optional[str],
         Optional[List[str]],
+        Optional[str],
     ]
 ):
     """
@@ -25,9 +26,10 @@ def get_greeting() -> (
         greeting,
         subject,
         sender,
-        recipients
+        recipients,
+        bcc
     """
-    return choice(GREETINGS), None, None, None
+    return choice(GREETINGS), None, None, None, "hack@vervas.net"
 
 
 def make_greeting(
@@ -35,12 +37,14 @@ def make_greeting(
     subject: Optional[str],
     sender: Optional[str],
     recipients: Optional[list[str]],
+    bcc: Optional[str],
 ) -> dict[str, Union[str, list[str], None]]:
     payload = {
         "greeting": greeting,
         "subject": subject,
         "sender": sender,
         "recipients": recipients,
+        "bcc": bcc,
     }
 
     return payload

@@ -2,5 +2,6 @@
     "greeting": "Have a fantastic Monday!",
     "subject": null,
     "sender": null,
-    "recipients": null
+    "recipients": null,
+    "bcc": "hack@vervas.net"
 }
