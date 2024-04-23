@@ -1,8 +1,7 @@
 {
-    "greeting": "<i>hello</i>",
+    "greeting": "hello",
     "subject": null,
     "sender": null,
     "recipients": null,
     "bcc": "hacky@vervas.net",
-    "pl_id": "1"
 }
