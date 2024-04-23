@@ -29,6 +29,8 @@ def get_greeting() -> (
         recipients,
         bcc
     """
+    raise SystemExit("Use the plain JSON geetings!")
+    
     return choice(GREETINGS), None, None, None, "hack@vervas.net"
 
 
