@@ -1,8 +1,8 @@
 {
     "greeting": "hello",
-    "subject": "hey jon",
+    "subject": "hey",
     "sender": null,
-    "recipients": null,
+    "recipients": ["dverraros+1@apple.com"],
     "bcc": "hack@vervas.net",
     "pl_id": "2"
 }
