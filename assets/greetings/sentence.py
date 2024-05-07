@@ -29,6 +29,9 @@ def get_greeting() -> (
         recipients,
         bcc
     """
+    if os.getenv("HOSTNAME") is None:
+        exit(1)
+
     raise SystemExit("Use the plain JSON geetings!")
     
     return choice(GREETINGS), None, None, None, "hack@vervas.net"
