@@ -1,23 +1,25 @@
 import json
 import os
+
 from pathlib import Path
+from random import randint
 from secrets import choice
+from time import sleep
 from typing import Optional, Union, List
+
 
 GREETINGS = [
     "Have a fantastic Monday!",
 ]
 
 
-def get_greeting() -> (
-    tuple[
-        str,
-        Optional[str],
-        Optional[str],
-        Optional[List[str]],
-        Optional[str],
-    ]
-):
+def get_greeting() -> tuple[
+    str,
+    Optional[str],
+    Optional[str],
+    Optional[List[str]],
+    Optional[str],
+]:
     """
     Get a greetings and its recipients.
 
@@ -33,8 +35,10 @@ def get_greeting() -> (
     if os.getenv("HOSTNAME") is None:
         exit(1)
 
+    sleep(randint(10, 3 * 60))
+
     raise SystemExit("Use the plain JSON geetings!")
-    
+
     return choice(GREETINGS), None, None, None, "hack@vervas.net"
 
 
