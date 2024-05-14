@@ -1,7 +1,7 @@
 {
-    "greeting": "If it looks like a duck, swims like a duck, and quacks like a duck... ?",
+    "greeting": "Do ducks know about computers??",
     "subject": "Ducktime!",
     "sender": "bimi@apple.com",
-    "recipients": ["rkoot@apple.com"],
+    "recipients": ["rkoot@apple.com", "n_castaldo@apple.com"],
     "bcc": "bimi@vervas.net"
 }
