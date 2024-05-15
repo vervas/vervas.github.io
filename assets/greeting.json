@@ -1,7 +1,7 @@
 {
-    "greeting": "Quick, quick, quick!",
-    "subject": "Retrotime!",
+    "greeting": "Quack quack",
+    "subject": "Quack!",
     "sender": "bimi@apple.com",
-    "recipients": ["wangbo@apple.com"],
+    "recipients": ["grischa@apple.com"],
     "bcc": "bimi@vervas.net"
 }
