@@ -1,7 +1,7 @@
 {
-    "greeting": "Do ducks know about computers??",
-    "subject": "Ducktime!",
+    "greeting": "Quick, quick, quick!",
+    "subject": "Retrotime!",
     "sender": "bimi@apple.com",
-    "recipients": ["rkoot@apple.com", "n_castaldo@apple.com"],
+    "recipients": ["wangbo@apple.com"],
     "bcc": "bimi@vervas.net"
 }
