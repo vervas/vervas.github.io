@@ -1,7 +1,7 @@
 {
-    "greeting": "#pest",
-    "subject": "Sunday patrol",
+    "greeting": "🦆 🤫",
+    "subject": "",
     "sender": "bimi@apple.com",
-    "recipients": [],
+    "recipients": ["rkoot@apple.com"],
     "bcc": "bimi@vervas.net"
 }
