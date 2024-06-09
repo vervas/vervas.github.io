@@ -1,7 +1,7 @@
 {
-    "greeting": "🦆 🤫",
-    "subject": "",
+    "greeting": "",
+    "subject": "🍹",
     "sender": "bimi@apple.com",
-    "recipients": ["rkoot@apple.com"],
+    "recipients": [],
     "bcc": "bimi@vervas.net"
 }
